@@ -1,11 +1,18 @@
-frontend:
+backend:
+    functions:
+        - entry: index.js
+          handler: handler
+          name: express
+          path: .
+          type: httpServer
+    language:
+        name: js
     path: .
-    publish: dist
     scripts:
         deploy:
-            - npm install --legacy-peer-deps
-            - npm run build
-    subdomain: topclassgstc
+            - npm install
+        local:
+            - npm install
 name: topclassgstc
 region: us-east-1
 yamlVersion: 2
