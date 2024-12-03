@@ -1,0 +1,11 @@
+frontend:
+    path: .
+    publish: dist
+    scripts:
+        deploy:
+            - npm install --legacy-peer-deps
+            - npm run build
+    subdomain: topclassgstc
+name: topclassgstc
+region: us-east-1
+yamlVersion: 2

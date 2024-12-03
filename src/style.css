@@ -1,0 +1,46 @@
+/* styles.css */
+.dialog-header {
+    text-transform: uppercase !important;
+    font-size: 18px !important;
+    font-family: 'Poppins', sans-serif !important;
+    color: #183f7f !important;
+  }
+  
+  .dialog-body {
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500 !important;
+    color: #090909 !important;
+    font-size: 14px !important;
+  }
+  
+  .dialog-footer .btn-supprimer {
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500 !important;
+    letter-spacing: 1px !important;
+    font-size: 10px !important;
+    background-color: #183f7f !important;
+    padding: 10px 20px !important; 
+    height: auto !important; 
+    line-height: 1 !important; 
+  }
+  
+  .dialog-footer .btn-annuler {
+    box-shadow: none !important; 
+    border-radius: 0px !important; 
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500 !important; 
+    letter-spacing: 1px !important; 
+    font-size: 10px !important;
+    background-color: white !important; 
+    color: black !important; 
+    padding: 10px 20px !important; 
+    height: auto !important; 
+    line-height: 1 !important; 
+  }
+
+  .tc-text-input {
+    text-align: left !important;/* Align text inside the inputs to the left */
+    padding-left: 12px !important;
+  }
